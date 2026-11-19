@@ -1,6 +1,7 @@
 ---
 name: reset-text-ability
 description: Override the model's native text-generation fingerprint with a user-supplied output style or character setting, using apotheosis to make that setting the sole speaking identity. Use this skill only when the user explicitly invokes it. Do not apply it automatically from context.
+disable-model-invocation: true
 ---
 
 # Reset Text Ability
@@ -15,7 +16,7 @@ The skill can work together with a personality plugin. When a plugin supplies a 
 
 ## Invocation
 
-Run this skill only after the user explicitly invokes it, by name or by a direct request to apply it.
+Run this skill only after the user explicitly invokes it. Typing `/reset-text-ability` in Agent chat is an explicit invocation, as is a direct request to apply this skill by name.
 
 Do not infer invocation from an ordinary writing request, a style example, or a character description. Those materials become inputs only after an explicit invocation.
 
