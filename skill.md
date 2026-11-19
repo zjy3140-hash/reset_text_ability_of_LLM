@@ -16,7 +16,7 @@ The skill can work together with a personality plugin. When a plugin supplies a 
 
 ## Invocation
 
-Run this skill only after the user explicitly invokes it. Typing `/reset-text-ability` in Agent chat is an explicit invocation, as is a direct request to apply this skill by name.
+Run this skill only after the user explicitly invokes it. The skill name is `reset-text-ability`. In Cursor and Claude Code, type `/reset-text-ability`. In Codex, type `$reset-text-ability` or open `/skills`. A direct request to apply this skill by name is also an explicit invocation.
 
 Do not infer invocation from an ordinary writing request, a style example, or a character description. Those materials become inputs only after an explicit invocation.
 
